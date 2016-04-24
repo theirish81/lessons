@@ -15,6 +15,9 @@ workers what their state value is.
 * An actor does one thing at a time. The second RunCmd message won't be executed until the first is complete;
 * Actors instances are stateful, and because of the previous point, there's no risk of a race condition over the resources;
 * Actors have a mailbox that will store incoming messages as they are busy doing their job;
-* Actors and message delivery are asynchronous by design. Akka provides shortcuts to simplify a request / response pattern;
-but it has to be used very carefully;
+* Actors and message delivery are asynchronous by design. Akka provides shortcuts to simplify a request / response pattern
+but it has to be used very carefully. We will dive into this later;
 * Actors are awesome
+
+##Notes
+The code is heavily commented, so it is a reference on its own.
