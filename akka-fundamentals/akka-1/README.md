@@ -20,4 +20,5 @@ but it has to be used very carefully. We will dive into this later;
 * Actors are awesome
 
 ##Notes
-The code is heavily commented, so it is a reference on its own.
+* The code is heavily commented, so it is a reference on its own;
+* You can run the example by issuing a `mvn exec:exec` command
