@@ -14,3 +14,8 @@ at how it works in Scala, because it really is fascinating.
 The first example does not really get deep into the concurrency problem, but demonstrates some of the key aspects of the actor model
 and the Akka implementation. Even so, you can immediately tell some of the benefits that made it so popular and get a hint on how
 it could change the way to organize your pojects.
+
+## Akka-2
+Introduction of routers and a glimpse of the Akka configuration file.
+We also configure a custom dispatcher that limits the number of spawned threads.
+The example is a simple simulation of a data ingestion chain that assumes both entry and sink are not thread-safe.
