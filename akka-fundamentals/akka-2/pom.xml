@@ -27,7 +27,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath/>
-                        <argument>com.simonepezzano.lessons.akkafundamentals.akka1.Main</argument>
+                        <argument>com.simonepezzano.lessons.akkafundamentals.akka2.Main</argument>
                     </arguments>
                 </configuration>
             </plugin>
