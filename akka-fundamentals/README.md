@@ -19,3 +19,7 @@ it could change the way to organize your pojects.
 Introduction of routers and a glimpse of the Akka configuration file.
 We also configure a custom dispatcher that limits the number of spawned threads.
 The example is a simple simulation of a data ingestion chain that assumes both entry and sink are not thread-safe.
+
+## Akka-3
+Very basic introduction to Akka-Remote that provides the capability to have distributed actors talking to each other
+over a network. This example is just scratching the surface and will be extended in the next example.
